@@ -16,7 +16,7 @@ This is the back-end part of the **Voiture App**, built with **Spring Boot** and
    First, you need to clone this repository from GitHub and navigate into the project directory:
    
    - git clone https://github.com/ChakraHs/SpringDataRest-React.git
-   - cd voiture-app-backend
+   - cd SpringDataRest-React
 
 ### 2. Build the Docker Image
 
