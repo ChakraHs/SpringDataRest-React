@@ -1,4 +1,4 @@
-# Voiture App Backend (Spring Boot)
+# Voiture App Backend (Spring Boot) with monitoring using Actuator-prometheus-grafana
 
 This is the back-end part of the **Voiture App**, built with **Spring Boot** and **Java 21**, and Dockerized for easy deployment. The project is integrated with **Spring Boot Actuator**, **Prometheus**, and **Grafana** for application monitoring and performance visualization. This guide explains how to set up, build, push, run the back-end, and monitor it with these tools.
 
