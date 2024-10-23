@@ -43,18 +43,6 @@ Spring Boot Actuator provides several out-of-the-box endpoints that expose usefu
 - `/actuator/health` – for health checks.
 - `/actuator/prometheus` – Prometheus metrics.
 
-Ensure that these endpoints are enabled in your `application.properties` or `application.yml`. Here’s an example configuration in `application.yml`:
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "health,prometheus"
-  metrics:
-    export:
-      prometheus:
-        enabled: true
-
 ### 2. Accessing Prometheus
 
 Once Docker Compose is running, Prometheus will be available at the following URL:
