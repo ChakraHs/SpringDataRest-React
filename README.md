@@ -59,7 +59,7 @@ You can explore the metrics being scraped by Prometheus by visiting this URL and
 
 Grafana will also be available via Docker Compose. To access Grafana, visit:
 
-- **Grafana URL**: [http://localhost:3000](http://localhost:3000)
+- **Grafana URL**: [http://localhost:3000](http://localhost:3001)
 
 ### 4. Setting Up Dashboards in Grafana
 
@@ -96,9 +96,9 @@ You can extend monitoring by adding custom metrics using the `@Timed`, `@Gauge`,
 
 Once the services are running, you can access the App at:
 
-- **Application URL**: [http://localhost:8080](http://localhost:8080)
+- **Application URL**: [http://localhost:3000](http://localhost:3000)
 - **Prometheus URL**: [http://localhost:9090](http://localhost:9090)
-- **Grafana URL**: [http://localhost:3000](http://localhost:3000)
+- **Grafana URL**: [http://localhost:3001](http://localhost:3001)
 
 
 
